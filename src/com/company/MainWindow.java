@@ -12,5 +12,6 @@ public class MainWindow extends JFrame {
 
         dp = new DrawPanel();
         this.add(dp);
+        this.setResizable(false);
     }
 }
